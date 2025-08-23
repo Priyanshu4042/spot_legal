@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spot Business — Terms & Conditions</title>
+  <style>
+    :root { --bg:#0f172a; --card:#111827; --ink:#e5e7eb; --muted:#9ca3af; --accent:#22d3ee; }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif}
+    .wrap{max-width:980px;margin:40px auto;padding:24px}
+    .card{background:var(--card);border:1px solid #1f2937;border-radius:18px;box-shadow:0 10px 30px rgba(0,0,0,.2)}
+    h1,h2,h3{line-height:1.2}
+    h1{font-size:2rem;margin:0 0 12px}
+    h2{font-size:1.25rem;margin:28px 0 8px}
+    h3{font-size:1rem;margin:22px 0 6px;color:var(--ink)}
+    p,li{color:var(--ink)}
+    .muted{color:var(--muted)}
+    .badge{display:inline-block;padding:.25rem .50rem;border-radius:999px;background:#0b1220;border:1px solid #1f2a3a;color:var(--muted);font-size:.8rem}
+    a{color:var(--accent);text-decoration:none}
+    .toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin:16px 0 28px}
+    .toc a{display:block;padding:10px 12px;border:1px dashed #243244;border-radius:12px;color:var(--ink)}
+    .section{padding:18px 22px;border-top:1px solid #1f2937}
+    .callout{background:#0b1220;border:1px solid #1f2a3a;border-radius:12px;padding:12px 14px;margin:10px 0}
+    code{background:#0b1220;padding:2px 6px;border-radius:6px;border:1px solid #1f2a3a}
+    ul{margin:0 0 0 1.25rem}
+    small{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap card">
+    <header style="padding:22px 22px 8px">
+      <h1>Spot Business — Terms &amp; Conditions</h1>
+      <p class="muted">Effective date: <strong>{{EFFECTIVE_DATE}}</strong> · Version: <span class="badge">v{{VERSION}}</span></p>
+      <p><strong>Company:</strong> {{LEGAL_NAME}} (trading as “Spot” / “Spot Business”)<br>
+         <strong>Legal form:</strong> {{LEGAL_FORM}}<br>
+         <strong>Registered address:</strong> {{REGISTERED_ADDRESS}}<br>
+         <strong>Contact:</strong> <a href="mailto:{{SUPPORT_EMAIL}}">{{SUPPORT_EMAIL}}</a> · {{SUPPORT_PHONE}}<br>
+         <strong>GSTIN:</strong> {{GSTIN}}</p>
+      <div class="callout"><small>These Terms govern your (“<strong>Merchant</strong>” or “<strong>you</strong>”) use of the Spot Business app and services provided by {{LEGAL_NAME}} (“<strong>Company</strong>”, “<strong>we</strong>”, “<strong>us</strong>”). By creating a Merchant account or using Spot Business, you agree to these Terms.</small></div>
+    </header>
+
+    <nav class="section">
+      <h2 id="toc">Table of Contents</h2>
+      <div class="toc">
+        <a href="#defs">1. Definitions</a>
+        <a href="#eligibility">2. Eligibility & Onboarding</a>
+        <a href="#account">3. Merchant Account & Access</a>
+        <a href="#services">4. Services</a>
+        <a href="#listings">5. Listings, Menus & Content</a>
+        <a href="#fees">6. Fees, Commissions & Taxes</a>
+        <a href="#payments">7. Payments, Payouts & Refunds</a>
+        <a href="#cxl">8. Cancellations & No‑Shows</a>
+        <a href="#policies">9. Merchant Policies</a>
+        <a href="#compliance">10. Compliance & Licences</a>
+        <a href="#permissions">11. App Permissions & Media</a>
+        <a href="#data">12. Data Protection & Security</a>
+        <a href="#ip">13. Intellectual Property</a>
+        <a href="#prohibited">14. Prohibited Uses</a>
+        <a href="#warranty">15. Warranties & Disclaimers</a>
+        <a href="#liability">16. Limitation of Liability</a>
+        <a href="#indemnity">17. Indemnity</a>
+        <a href="#term">18. Term, Suspension & Termination</a>
+        <a href="#changes">19. Changes to Terms</a>
+        <a href="#disputes">20. Governing Law & Disputes</a>
+        <a href="#contact">21. Contact & Grievance Officer</a>
+      </div>
+    </nav>
+
+    <section id="defs" class="section">
+      <h2>1. Definitions</h2>
+      <ul>
+        <li><strong>App</strong>: Spot Business mobile application and related web services.</li>
+        <li><strong>Merchant</strong>: Restaurant/eatery/event organizer using the App to receive orders, manage reservations, or list events/businesses.</li>
+        <li><strong>End‑User</strong>: Consumer using the Spot consumer app to place orders, book tables, or purchase tickets.</li>
+        <li><strong>Payment Partner</strong>: Razorpay (or any successor/ additional payment gateway).</li>
+        <li><strong>Payout</strong>: Settlement from Company to Merchant after applicable fees/adjustments.</li>
+      </ul>
+    </section>
+
+    <section id="eligibility" class="section">
+      <h2>2. Eligibility & Onboarding</h2>
+      <ul>
+        <li>Merchant must be a legal entity or a person competent to contract under Indian law, holding valid licences/registrations (e.g., FSSAI for food businesses, GST where applicable).</li>
+        <li>You agree to complete KYC as requested, provide accurate information, and keep it updated.</li>
+        <li>We may approve or reject onboarding at our discretion and may require additional verification at any time.</li>
+      </ul>
+    </section>
+
+    <section id="account" class="section">
+      <h2>3. Merchant Account & Access</h2>
+      <ul>
+        <li>You are responsible for safeguarding login credentials and for all activity under your account, including actions by your staff.</li>
+        <li>You must notify us immediately of any unauthorised use or security breach.</li>
+        <li>We may offer role‑based access (e.g., Admin, Restaurant, Eatery Staff). You must ensure only authorised personnel have access.</li>
+      </ul>
+    </section>
+
+    <section id="services" class="section">
+      <h2>4. Services</h2>
+      <p>The App enables: (a) in‑campus food ordering and delivery coordination; (b) restaurant table reservations and pre‑orders; (c) event listings and ticket sales; (d) business directory listings (“Meet Manipal”); and related merchant tools (analytics, notifications, menu/item management).</p>
+      <p>Service availability is currently limited to {{SERVICE_TERRITORY}}. We may expand or restrict territories at any time.</p>
+    </section>
+
+    <section id="listings" class="section">
+      <h2>5. Listings, Menus & Content</h2>
+      <ul>
+        <li>You must ensure your menus, prices, offers, event details, inventory, timings, and seat/table availability are accurate and updated.</li>
+        <li>You grant us a non‑exclusive, royalty‑free licence to use your name, logo, menus, photos, and listing content for operating and promoting the Services. You represent that you own or have rights to this content.</li>
+        <li>Content must not be misleading, unlawful, defamatory, obscene, or infringe third‑party rights.</li>
+      </ul>
+    </section>
+
+    <section id="fees" class="section">
+      <h2>6. Fees, Commissions & Taxes</h2>
+      <ul>
+        <li>Commission on qualifying transactions: <strong>{{COMMISSION_TERMS}}</strong> (see Annexure‑A for current rates by category). We may revise upon prior notice per Section 19.</li>
+        <li>Listing fees: Events ₹{{EVENT_LISTING_FEE}} per event; “Meet Manipal” ₹{{MEET_MANIPAL_FEE}} per business listing, unless waived by us in writing.</li>
+        <li>All fees are exclusive of applicable taxes. GST, TCS/TDS (if applicable) will be applied/deducted per law. You are responsible for your own indirect/direct tax compliance.</li>
+      </ul>
+    </section>
+
+    <section id="payments" class="section">
+      <h2>7. Payments, Payouts & Refunds</h2>
+      <ul>
+        <li>Customer payments are processed via <strong>Razorpay</strong> or other Payment Partners. You agree to their terms and to provide any KYC/settlement details required.</li>
+        <li>Payout cycle to Merchant: <strong>{{PAYOUT_CYCLE}}</strong>, subject to settlement delays, chargebacks, refunds, holds, or compliance checks.</li>
+        <li>Refunds: For restaurant <strong>table reservations</strong>, refunds are allowed only if cancelled at least <strong>90 minutes</strong> before reserved time; processing fees and gateway charges may be deducted. For food orders and event tickets, refunds follow <strong>{{REFUND_MATRIX}}</strong>.</li>
+        <li>Chargebacks/Disputes: We may withhold payouts or recover amounts for chargebacks, fraud, or customer disputes. You agree to cooperate in resolution.</li>
+      </ul>
+    </section>
+
+    <section id="cxl" class="section">
+      <h2>8. Cancellations & No‑Shows</h2>
+      <ul>
+        <li>You must publish clear cancellation windows and any no‑show fees in your listing. Our consumer app will surface these to End‑Users.</li>
+        <li>Where you accept pre‑orders, you must set realistic prep times and honour confirmed orders/reservations except for force majeure or safety reasons.</li>
+      </ul>
+    </section>
+
+    <section id="policies" class="section">
+      <h2>9. Merchant Policies</h2>
+      <ul>
+        <li>Food quality and safety are your responsibility. Items must match descriptions and comply with FSSAI norms.</li>
+        <li>Events must be accurately described (venue, date/time, capacity, age restrictions) and comply with local permissions.</li>
+        <li>You agree to handle customer support escalations promptly; unresolved issues may result in refunds/adjustments.</li>
+      </ul>
+    </section>
+
+    <section id="compliance" class="section">
+      <h2>10. Compliance & Licences</h2>
+      <ul>
+        <li>You warrant compliance with all applicable laws (including IT Act, Consumer Protection, FSSAI, Shops & Establishments, labour, and tax laws).</li>
+        <li>We may request and store copies of necessary licences (e.g., FSSAI, trade licence, event permissions) and deactivate non‑compliant listings.</li>
+      </ul>
+    </section>
+
+    <section id="permissions" class="section">
+      <h2>11. App Permissions & Media</h2>
+      <ul>
+        <li>The App may request access to <strong>Photos/Media</strong> to upload logos, menu images, and event/business photos; and <strong>Camera</strong> for scanning QR codes or capturing images. You can disable permissions in device settings; some features may not work without them.</li>
+        <li>You confirm that any media uploaded is lawful and that you have rights to use and share it with us.</li>
+      </ul>
+    </section>
+
+    <section id="data" class="section">
+      <h2>12. Data Protection & Security</h2>
+      <ul>
+        <li>We collect limited personal data (e.g., name and phone number) necessary to operate the Services. Operational data is stored in <strong>Firebase</strong>. Payment instruments are handled by Payment Partners; we do not store card details.</li>
+        <li>We implement reasonable technical and organisational measures; however, no system is completely secure. You must secure your devices and network access.</li>
+        <li>Use of data is governed by our Privacy Policy (incorporated by reference). Merchant must comply with applicable data protection laws when accessing End‑User data.</li>
+      </ul>
+    </section>
+
+    <section id="ip" class="section">
+      <h2>13. Intellectual Property</h2>
+      <ul>
+        <li>The App and all related IP are owned or licensed by the Company. Except for the limited rights granted here, no rights are transferred.</li>
+        <li>Merchant trademarks and content remain Merchant property; you grant us the licence specified in Section 5.</li>
+      </ul>
+    </section>
+
+    <section id="prohibited" class="section">
+      <h2>14. Prohibited Uses</h2>
+      <ul>
+        <li>Reverse engineering, scraping, or bypassing security.</li>
+        <li>Engaging in fraud, misrepresentation, or unlawful activities.</li>
+        <li>Interfering with App operations or submitting malicious code.</li>
+      </ul>
+    </section>
+
+    <section id="warranty" class="section">
+      <h2>15. Warranties & Disclaimers</h2>
+      <p>The Services are provided on an “as is” and “as available” basis. We disclaim all warranties not expressly stated, including implied warranties of merchantability, fitness, and non‑infringement. We do not guarantee uninterrupted or error‑free operation.</p>
+    </section>
+
+    <section id="liability" class="section">
+      <h2>16. Limitation of Liability</h2>
+      <p>To the maximum extent permitted by law, our aggregate liability arising out of or relating to the Services will not exceed the total fees paid by you to us in the <strong>three (3) months</strong> preceding the event giving rise to the claim. We are not liable for indirect, incidental, special, consequential, exemplary, or punitive damages.</p>
+    </section>
+
+    <section id="indemnity" class="section">
+      <h2>17. Indemnity</h2>
+      <p>You will defend, indemnify, and hold harmless the Company, its affiliates, and personnel from any claims, losses, or liabilities arising from (a) your listings, food/products/services, events, or conduct; (b) your breach of these Terms or law; or (c) your use of the Services.</p>
+    </section>
+
+    <section id="term" class="section">
+      <h2>18. Term, Suspension & Termination</h2>
+      <ul>
+        <li>These Terms start upon your acceptance and continue until terminated.</li>
+        <li>We may suspend or terminate access immediately for breaches, fraud risk, non‑payment, or legal/non‑compliance issues.</li>
+        <li>You may terminate by written notice and deleting your account; outstanding obligations and accrued fees survive.</li>
+      </ul>
+    </section>
+
+    <section id="changes" class="section">
+      <h2>19. Changes to Terms & Fees</h2>
+      <p>We may update these Terms or revise fees by posting an updated version in the App or via email/notice. Unless required sooner by law, changes take effect after <strong>{{NOTICE_PERIOD}}</strong> from notice date. Continued use after the effective date constitutes acceptance.</p>
+    </section>
+
+    <section id="disputes" class="section">
+      <h2>20. Governing Law & Disputes</h2>
+      <p>These Terms are governed by the laws of India. Subject to the arbitration clause below, courts at <strong>{{JURISDICTION_CITY}}</strong> will have exclusive jurisdiction.</p>
+      <p><strong>Arbitration:</strong> Any dispute will be referred to a sole arbitrator appointed per the Arbitration and Conciliation Act, 1996. Seat/venue of arbitration: <strong>{{ARBITRATION_VENUE}}</strong>. Language: English.</p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>21. Contact & Grievance Officer</h2>
+      <p>Grievance Officer (per IT Act, 2000): <strong>{{GRIEVANCE_OFFICER_NAME}}</strong><br>
+      Email: <a href="mailto:{{GRIEVANCE_OFFICER_EMAIL}}">{{GRIEVANCE_OFFICER_EMAIL}}</a> · Phone: {{GRIEVANCE_OFFICER_PHONE}}<br>
+      Address: {{GRIEVANCE_OFFICER_ADDRESS}}</p>
+    </section>
+
+    <section class="section">
+      <h2>Annexure‑A: Current Fees & Commissions</h2>
+      <ul>
+        <li>Event listing fee: ₹{{EVENT_LISTING_FEE}} per event.</li>
+        <li>Meet Manipal business listing: ₹{{MEET_MANIPAL_FEE}} per listing.</li>
+        <li>Transaction commission: {{COMMISSION_TERMS}} (e.g., <code>25–30% on tickets</code>; food delivery/reservations: <code>{{FOOD_DELIVERY_COMMISSION}}</code>).</li>
+        <li>Payment gateway charges: as per Payment Partner schedule; borne by {{PG_CHARGES_BORNE_BY}}.</li>
+        <li>Payout threshold & schedule: {{PAYOUT_CYCLE}} · Minimum payout ₹{{MIN_PAYOUT_THRESHOLD}}.</li>
+      </ul>
+    </section>
+
+    <footer class="section">
+      <p class="muted"><small>Note: This template is for general informational purposes and does not constitute legal advice. Please consult counsel to adapt it to your business.</small></p>
+    </footer>
+  </div>
+</body>
+</html>
